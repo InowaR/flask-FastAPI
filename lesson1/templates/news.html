@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости</title>
+</head>
+<body style="display:flex; justify-content:space-around;">
+    {% for article in news %}
+        <div>
+            <h>{{ article.title }}</h>
+            <p>{{ article.description }}</p>
+            <p>{{ article.date }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
