@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница1</title>
+</head>
+<body>
+    <p>Ввод фотографии</p>
+    <form action="{{ url_for('output') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <button type="submit">Отправить фото</button>
+    </form>
+</body>
+</html>
