@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="homework tasks">
-      <change afterPath="$PROJECT_DIR$/lesson1/homework1/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/homework1/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/homework1/templates/contact.html" afterDir="false" />
+    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="task8">
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/task9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/clothes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/jacket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/shoes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task8/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/homework1/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task8/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/homework1/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task8/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/homework1/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task8/templates/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +67,7 @@
     "Python.task5.executor": "Run",
     "Python.task6.executor": "Run",
     "Python.task8.executor": "Run",
+    "Python.task9.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -70,11 +76,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson1/homework1/task8" />
       <recent name="$PROJECT_DIR$/lesson2/homework2" />
       <recent name="$PROJECT_DIR$/lesson2/seminar2/task3" />
       <recent name="$PROJECT_DIR$/lesson2/seminar2/task2" />
       <recent name="$PROJECT_DIR$/lesson2/seminar2/task2/templates" />
-      <recent name="$PROJECT_DIR$/lesson2/seminar2/task1" />
     </key>
   </component>
   <component name="RunManager">
@@ -149,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709840626446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task8">
+      <option name="closed" value="true" />
+      <created>1710044571001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710044571001</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,6 +171,7 @@
     <MESSAGE value="started a homework" />
     <MESSAGE value="seminar2" />
     <MESSAGE value="homework tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework tasks" />
+    <MESSAGE value="task8" />
+    <option name="LAST_COMMIT_MESSAGE" value="task8" />
   </component>
 </project>

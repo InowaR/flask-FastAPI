@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Главная
+        {% endblock %}
+    </title>
+</head>
+<body>
+    {% block header %}
+        <div style="background-color: #f3f3f3;">
+            <a style="margin-right: 20px" href="/">Главная</a>
+            <a style="margin-right: 20px" href="/clothes">Одежда</a>
+            <a style="margin-right: 20px" href="/shoes">Обувь</a>
+            <a style="margin-right: 20px" href="/jacket">Куртка</a>
+        </div>
+    {% endblock %}
+
+    {% block content %}
+    <div style="display:flex; justify-content: space-between; align-items: center; width: 1000px; background-color: #f3f3f3; padding: 20px;">
+        <div style="width: 100px; height: 100px; background-color: blue;"></div>
+        <div style="width: 100px; height: 100px; background-color: blue;"></div>
+        <div style="width: 100px; height: 100px; background-color: blue;"></div>
+    </div>
+    {% endblock %}
+</body>
+</html>
