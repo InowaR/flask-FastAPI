@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="seminar2">
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/homework" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/seminar2/task4/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/homework2/task4/task4.py" afterDir="false" />
+    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="homework tasks">
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/homework1/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,20 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task6.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.main.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task4.executor": "Run",
+    "Python.task5.executor": "Run",
+    "Python.task6.executor": "Run",
+    "Python.task8.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson2/homework2" />
@@ -136,13 +141,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709840330727</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework tasks">
+      <option name="closed" value="true" />
+      <created>1709840626446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709840626446</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 lesson" />
     <MESSAGE value="started a homework" />
     <MESSAGE value="seminar2" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar2" />
+    <MESSAGE value="homework tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework tasks" />
   </component>
 </project>
