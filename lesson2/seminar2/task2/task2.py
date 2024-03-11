@@ -2,23 +2,33 @@
 # на которой будет отображаться форма для загрузки изображений.
 import os.path
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 
 
 @app.route('/')
-def page1():
-    return render_template('page1.html')
+def photo_upload():
+    message = request.args.get("message")
+    if message is None:
+        return render_template('image-input.html')
+    return render_template('image-input.html', message=message)
 
 
 @app.route('/output', methods=['POST'])
-def output():
+def show_photo():
+    if not os.path.exists('static'):
+        os.mkdir('static')
+    if not os.path.exists('static/img'):
+        os.mkdir('static/img')
     image = request.files['image']
     filename = secure_filename(image.filename)
-    image.save(os.path.join('uploads', filename))
-    return render_template('page2.html', image=filename)
+    if filename is not '':
+        image.save(os.path.join('static/img', filename))
+        print(os.path.join('static/img', filename))
+        return render_template('image-output.html', image_path=os.path.join('static/img', filename))
+    return redirect(url_for('photo_upload', message='Изображение не загружено'))
 
 
 if __name__ == '__main__':

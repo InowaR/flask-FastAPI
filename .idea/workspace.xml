@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="added base html">
-      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/static/img/clothes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/static/img/jacket.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/static/img/shoes.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/homework1/task9/wsgi.py" afterDir="false" />
+    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="added images and a banner">
+      <change afterPath="$PROJECT_DIR$/lesson2/seminar2/task2/static/img/Travel_Time.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task9/task9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task9/task9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task9/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task9/templates/clothes.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/clothes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task9/templates/jacket.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/jacket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/homework1/task9/templates/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework1/task9/templates/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/seminar2/task1/templates/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/seminar2/task1/templates/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/seminar2/task2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/seminar2/task2/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/seminar2/task2/templates/image-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/seminar2/task2/templates/image-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/seminar2/task2/templates/image-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/seminar2/task2/templates/image-output.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +58,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.main.executor": "Run",
+    "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
     "Python.task4.executor": "Run",
@@ -86,7 +83,7 @@
       <recent name="$PROJECT_DIR$/lesson2/seminar2/task2/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wsgi">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="flask-FastAPI" />
       <option name="ENV_FILES" value="" />
@@ -201,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710067349638</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added images and a banner">
+      <option name="closed" value="true" />
+      <created>1710125067971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710125067971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,6 +217,7 @@
     <MESSAGE value="homework tasks" />
     <MESSAGE value="task8" />
     <MESSAGE value="added base html" />
-    <option name="LAST_COMMIT_MESSAGE" value="added base html" />
+    <MESSAGE value="added images and a banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="added images and a banner" />
   </component>
 </project>
