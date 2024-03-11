@@ -10,7 +10,7 @@
 </head>
 <body>
     {% block header %}
-        <div style="background-color: #f3f3f3;">
+        <div style="width: 1366px; background-color: #f3f3f3; padding: 10px;">
             <a style="margin-right: 20px" href="/">Главная</a>
             <a style="margin-right: 20px" href="/clothes">Одежда</a>
             <a style="margin-right: 20px" href="/shoes">Обувь</a>
@@ -18,12 +18,49 @@
         </div>
     {% endblock %}
 
+
+    {% block name %}
+        <h1>Главная</h1>
+    {% endblock %}
+
+
+    {% block banner %}
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 1000px; background-color: #f3f3f3; padding: 20px;">
+            <div id="my-div1" style="width: 100px; height: 100px;"></div>
+            <div id="my-div2" style="width: 100px; height: 100px;"></div>
+            <div id="my-div3" style="width: 100px; height: 100px;"></div>
+            <div id="my-div4" style="width: 100px; height: 100px;"></div>
+            <div id="my-div5" style="width: 100px; height: 100px;"></div>
+        </div>
+        <script>
+            // Функция для генерации случайного цвета
+            function generateRandomColor() {
+              const letters = "0123456789ABCDEF";
+              let color = "#";
+              for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+              }
+              return color;
+            }
+
+            // Присвоение случайного цвета фону div
+            document.getElementById("my-div1").style.backgroundColor = generateRandomColor();
+            document.getElementById("my-div2").style.backgroundColor = generateRandomColor();
+            document.getElementById("my-div3").style.backgroundColor = generateRandomColor();
+            document.getElementById("my-div4").style.backgroundColor = generateRandomColor();
+            document.getElementById("my-div5").style.backgroundColor = generateRandomColor();
+        </script>
+    {% endblock %}
+
+
     {% block content %}
-    <div style="display:flex; justify-content: space-between; align-items: center; width: 1000px; background-color: #f3f3f3; padding: 20px;">
-        <div style="width: 100px; height: 100px; background-color: blue;"></div>
-        <div style="width: 100px; height: 100px; background-color: blue;"></div>
-        <div style="width: 100px; height: 100px; background-color: blue;"></div>
-    </div>
+        <p style="width: 1000px; margin-left: 15px;">
+            Adinvidunt dictum mattis epicuri causae maiorum.  Proinaccumsan habitasse te sapien.  Contentionespostea sale inceptos deserunt.  Perpetuaaliquid liber usu quo vestibulum eros iudicabit condimentum imperdiet.  Utatomorum minim prompta hinc reprimique penatibus dicit delenit signiferumque tractatos morbi at dolore.
+            Corrumpiteius duo quis.  Faucibuspostea molestiae persecuti laudem causae gravida utamur massa reformidans donec netus dictumst periculis splendide lacinia torquent.  Mimaiestatis perpetua scelerisque dignissim sale quod laudem esse expetendis pri reformidans pericula eloquentiam primis sem brute utroque inciderint.  Mnesarchumreferrentur id lectus debet inimicus placerat suspendisse posuere suavitate nullam eleifend vocent evertitur ac definitiones repudiare ultrices.
+            Graecistibique litora recteque diam.  Seaei porro suscipit interesset commodo gravida reprehendunt vulputate platea id suspendisse mucius.
+            Dapibusdolore vivamus inimicus dolor nullam conclusionemque netus vocent in maiestatis suspendisse ubique principes.  Vulputateoratio quaestio.
+            Risusexpetendis persequeris prodesset latine epicuri saperet oporteat hendrerit ex mutat massa aliquam risus dicat senectus phasellus.  Nonumesdetracto diam laudem volumus aliquip honestatis repudiandae ultricies posuere scripta omnesque eros.  Erroribusfeugiat maiorum veri minim delectus dictum ultrices eruditi fuisset bibendum iuvaret blandit penatibus tota solet porta ne repudiandae.  Theophrastusfermentum animal dicant usu simul.  Habeocommodo vidisse eam delicata iisque elit nihil mnesarchum eripuit scripta quo facilisi augue hendrerit magnis mutat volutpat molestiae ancillae.
+        </p>
     {% endblock %}
 </body>
 </html>
