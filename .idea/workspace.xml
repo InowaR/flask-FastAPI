@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="fixed login and password">
-      <change afterPath="$PROJECT_DIR$/instance/university.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/seminar3/task1/instance/university.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/seminar3/task1/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/seminar3/task1/templates/students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/seminar3/task1/views.py" afterDir="false" />
+    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="3 classwork">
+      <change afterPath="$PROJECT_DIR$/.idea/flask-FastAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/seminar3/task1/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instance/university.db" beforeDir="false" afterPath="$PROJECT_DIR$/university.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/seminar3/task1/instance/university.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/seminar3/task1/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/seminar3/task1/templates/students.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/seminar3/task1/templates/students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/seminar3/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/seminar3/task1/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,40 +55,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.commands.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.views.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wsgi.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/georgiy/PycharmProjects/flask-FastAPI/instance&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.commands.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.task1.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task4.executor": "Run",
+    "Python.task5.executor": "Run",
+    "Python.task6.executor": "Run",
+    "Python.task8.executor": "Run",
+    "Python.task9.executor": "Run",
+    "Python.views.executor": "Run",
+    "Python.wsgi.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/georgiy/PycharmProjects/flask-FastAPI/lesson3/seminar3/task1",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson3/seminar3/task1" />
       <recent name="$PROJECT_DIR$/instance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/instance" />
       <recent name="$PROJECT_DIR$/lesson1/homework1/task8" />
       <recent name="$PROJECT_DIR$/lesson2/homework2" />
       <recent name="$PROJECT_DIR$/lesson2/seminar2/task3" />
       <recent name="$PROJECT_DIR$/lesson2/seminar2/task2" />
-      <recent name="$PROJECT_DIR$/lesson2/seminar2/task2/templates" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views">
@@ -228,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710130766829</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="3 classwork">
+      <option name="closed" value="true" />
+      <created>1710271317862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710271317862</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +255,7 @@
     <MESSAGE value="added images and a banner" />
     <MESSAGE value="fixed images" />
     <MESSAGE value="fixed login and password" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed login and password" />
+    <MESSAGE value="3 classwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 classwork" />
   </component>
 </project>
