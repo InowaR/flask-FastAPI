@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task4/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task4/templates/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task5/task5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task6/task6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task7/task7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task8/task8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task9/task9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flask-FastAPI.iml" beforeDir="false" />
+    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="2 homework task 4">
+      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task5/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homework2/task5/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson2/homework2/task4/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/homework2/task4/task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2/homework2/task5/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/homework2/task5/task5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710277097179</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2 homework task 4">
+      <option name="closed" value="true" />
+      <created>1710348546829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710348546829</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +269,7 @@
     <MESSAGE value="fixed login and password" />
     <MESSAGE value="3 classwork" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="2 homework task 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 homework task 4" />
   </component>
 </project>
