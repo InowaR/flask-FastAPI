@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приветствие</title>
+</head>
+<body>
+    <h1>Введите имя:</h1>
+    <form action="/result" method="post">
+        <input type="text" name="name" placeholder="Введите имя">
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+
+    {% for message in get_flashed_messages() %}
+        {{ message }}
+    {% endfor %}
+</body>
+</html>
