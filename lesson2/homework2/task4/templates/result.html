@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат</title>
+</head>
+<body>
+    <h1>Результат:</h1>
+    <p>
+        В вашем тексте
+        {% if word_count == 1 %}
+            {{ word_count }} слово.
+        {% elif word_count > 1 and word_count <= 4 %}
+            {{ word_count }} слова.
+        {% elif word_count % 10 == 0 or word_count % 10 >= 5 %}
+            {{ word_count }} слов.
+        {% elif word_count % 10 == 1 %}
+            {{ word_count }} слово.
+        {% else %}
+            {{ word_count }} слова.
+        {% endif %}
+    </p>
+</body>
+</html>
