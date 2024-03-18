@@ -1,5 +1,5 @@
 import uvicorn
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 app = FastAPI()
@@ -38,17 +38,23 @@ async def set_movie(movie: Movie):
     return {"message": "Movie added"}
 
 
-@app.put("/movies")
+@app.put("/movies/")
 async def rename_movie(movie: Movie):
     for i, element in enumerate(movies):
         if element == movie:
             movies[i] = movie
             return {"message": "Movie renamed"}
+    raise HTTPException(status_code=404, detail="Task not found")
 
 
-@app.delete("/movies")
-async def delete_movie(movie: Movie):
+@app.delete("/movies/")
+async def delete_movie(title: str):
     for i, element in enumerate(movies):
-        if element == movie:
+        if element.title == title:
             del movies[i]
             return {"message": "Movie deleted"}
+    raise HTTPException(status_code=404, detail="Task not found")
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=5000)
