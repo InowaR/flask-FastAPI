@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="{{ url_for('register') }}" method="post">
+        <p>
+            {{ form.name.label }}
+            {{ form.name }}
+        </p>
+        <p>
+            {{ form.surname.label }}
+            {{ form.surname }}
+        </p>
+        <p>
+            {{ form.email.label }}
+            {{ form.email }}
+        </p>
+        <p>
+            {{ form.password.label }}
+            {{ form.password }}
+        </p>
+        <p>
+            {{ form.password_confirm.label }}
+            {{ form.password_confirm }}
+        </p>
+        <p>
+            {{ form.submit }}
+        </p>
+    </form>
+</body>
+</html>

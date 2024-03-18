@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="3 homework task 8">
-      <change afterPath="$PROJECT_DIR$/lesson3/homework3/task8/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/homework3/task8/templates/profile.html" afterDir="false" />
+    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="3 homework task 8 fixed">
+      <change afterPath="$PROJECT_DIR$/lesson3/homework3/task7/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homework3/task7/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homework3/task7/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/homework3/task8/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/homework3/task8/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/homework3/task8/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/homework3/task8/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.db" beforeDir="false" afterPath="$PROJECT_DIR$/users.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710771726497</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="3 homework task 8 fixed">
+      <option name="closed" value="true" />
+      <created>1710775524966</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710775524966</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,6 +296,7 @@
     <MESSAGE value="2 homework task 9" />
     <MESSAGE value="4 seminar" />
     <MESSAGE value="3 homework task 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 homework task 8" />
+    <MESSAGE value="3 homework task 8 fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 homework task 8 fixed" />
   </component>
 </project>
