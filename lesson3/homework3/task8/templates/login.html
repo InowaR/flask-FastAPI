@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+</head>
+<body>
+    <h1>Вход</h1>
+    <form action="{{ url_for('login') }}" method="post">
+        {{ form.csrf_token }}
+        <p>
+            {{ form.email.label }}
+            {{ form.email }}
+        </p>
+        <p>
+            {{ form.password.label }}
+            {{ form.password }}
+        </p>
+        <p>
+            {{ form.submit }}
+        </p>
+    </form>
+    {% for message in get_flashed_messages(category_filter=["error"]) %}
+        <div class="error">{{ message }}</div>
+    {% endfor %}
+</body>
+</html>

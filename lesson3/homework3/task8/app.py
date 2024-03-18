@@ -9,6 +9,7 @@ from wtforms.validators import DataRequired, Email
 app = Flask(__name__)
 app.config['SECRET_KEY'] = secrets.token_hex()
 csrf = CSRFProtect(app)
+csrf.init_app(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/georgiy/PycharmProjects/flask-FastAPI/users.db'
 db = SQLAlchemy(app)
 
@@ -21,6 +22,12 @@ class User(db.Model):
     surname = db.Column(db.String(255))
     email = db.Column(db.String(255))
     password = db.Column(db.String(255))
+
+
+class LoginForm(FlaskForm):
+    email = StringField('Email', validators=[DataRequired()])
+    password = PasswordField('Пароль', validators=[DataRequired()])
+    submit = SubmitField('Войти')
 
 
 class RegistrationForm(FlaskForm):
