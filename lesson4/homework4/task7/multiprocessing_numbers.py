@@ -3,7 +3,7 @@ import random
 import time
 
 
-arr = multiprocessing.Array('i', [0] * 10000000)
+arr = multiprocessing.Array('i', [0] * 1000000)
 
 
 def fill_array_part(arr, start, end):
@@ -16,11 +16,11 @@ def calculate_sum(arr, start, end, result):
     result.put(partial_sum)
 
 
-chunk_size = len(arr) // 10
+chunk_size = len(arr) // 2
 
 fill_processes = []
 start_time_fill = time.time()
-for i in range(10):
+for i in range(2):
     process = multiprocessing.Process(target=fill_array_part, args=(arr, i * chunk_size, (i + 1) * chunk_size))
     fill_processes.append(process)
     process.start()
@@ -33,7 +33,7 @@ end_time_fill = time.time()
 sum_processes = []
 results = multiprocessing.Queue()
 start_time_sum = time.time()
-for i in range(10):
+for i in range(2):
     process = multiprocessing.Process(target=calculate_sum, args=(arr, i * chunk_size, (i + 1) * chunk_size, results))
     sum_processes.append(process)
     process.start()

@@ -3,7 +3,7 @@ import random
 import time
 
 
-arr = [0] * 10000000
+arr = [0] * 1000000
 
 
 def fill_array_part(arr, start, end):
@@ -16,11 +16,11 @@ def calculate_sum(arr, start, end, result):
     result.append(partial_sum)
 
 
-chunk_size = len(arr) // 50
+chunk_size = len(arr) // 2
 
 fill_threads = []
 start_time_fill = time.time()
-for i in range(50):
+for i in range(2):
     thread = threading.Thread(target=fill_array_part, args=(arr, i * chunk_size, (i + 1) * chunk_size))
     fill_threads.append(thread)
     thread.start()
@@ -33,7 +33,7 @@ end_time_fill = time.time()
 sum_threads = []
 results = []
 start_time_sum = time.time()
-for i in range(50):
+for i in range(2):
     thread = threading.Thread(target=calculate_sum, args=(arr, i * chunk_size, (i + 1) * chunk_size, results))
     sum_threads.append(thread)
     thread.start()

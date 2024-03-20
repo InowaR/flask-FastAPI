@@ -3,7 +3,7 @@ import random
 import time
 
 
-arr = [0] * 10000000
+arr = [0] * 1000000
 
 
 async def fill_array_part(arr, start, end):
@@ -16,11 +16,11 @@ async def calculate_sum(arr, start, end):
 
 
 async def main():
-    chunk_size = len(arr) // 10
+    chunk_size = len(arr) // 2
 
     fill_tasks = []
     start_time_fill = time.time()
-    for i in range(10):
+    for i in range(2):
         task = asyncio.create_task(fill_array_part(arr, i * chunk_size, (i + 1) * chunk_size))
         fill_tasks.append(task)
 
@@ -29,7 +29,7 @@ async def main():
 
     sum_tasks = []
     start_time_sum = time.time()
-    for i in range(10):
+    for i in range(2):
         task = asyncio.create_task(calculate_sum(arr, i * chunk_size, (i + 1) * chunk_size))
         sum_tasks.append(task)
 
