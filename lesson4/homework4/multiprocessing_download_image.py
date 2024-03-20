@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import requests
 from multiprocessing import Process, Queue
@@ -45,4 +46,9 @@ def main(urls):
         print(f"Скачано: {filename}, время: {process_time:.2f} сек.")
 
 
-main(urls)
+if __name__ == "__main__":
+    urls = sys.argv[1:]
+    if not urls:
+        print("Укажите URL-адреса изображений.")
+        sys.exit(1)
+    main(urls)

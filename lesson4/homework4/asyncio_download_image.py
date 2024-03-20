@@ -1,4 +1,5 @@
 import asyncio
+import sys
 import aiohttp
 import os
 import time
@@ -33,4 +34,9 @@ async def main(urls):
     print(f"Общее время выполнения: {end_time - start_time:.2f} сек.")
 
 
-asyncio.run(main(urls))
+if __name__ == "__main__":
+    urls = sys.argv[1:]
+    if not urls:
+        print("Укажите URL-адреса изображений.")
+        sys.exit(1)
+    asyncio.run(main(urls))

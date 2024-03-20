@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="sem5 task2 fixed">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/homework4/asyncio_download_image.py" afterDir="false" />
+    <list default="true" id="697345f3-a3ad-4994-87c3-ef1dbf4457f3" name="Changes" comment="homework4 multiprocessing threading">
       <change afterPath="$PROJECT_DIR$/lesson4/homework4/images/1666389850_35-mykaleidoscope-ru-p-klassnaya-priroda-oboi-37.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson4/homework4/images/A3b29b1df8590451098f96ffd0f3b9ce69.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/homework4/asyncio_download_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/homework4/asyncio_download_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/homework4/multiprocessing_download_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/homework4/multiprocessing_download_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/homework4/threading_download_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/homework4/threading_download_image.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,7 @@
     "Python.main.executor": "Run",
     "Python.models.executor": "Run",
     "Python.multiprocessing.executor": "Run",
+    "Python.multiprocessing_download_image.executor": "Run",
     "Python.multiprocessing_example.executor": "Run",
     "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
@@ -76,6 +78,7 @@
     "Python.task8.executor": "Run",
     "Python.task9.executor": "Run",
     "Python.thread_example.executor": "Run",
+    "Python.threading_download_image.executor": "Run",
     "Python.views.executor": "Run",
     "Python.wsgi.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -92,11 +95,11 @@
       <recent name="$PROJECT_DIR$/instance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson5/seminar5/task1" />
       <recent name="$PROJECT_DIR$/lesson5/seminar5" />
       <recent name="$PROJECT_DIR$/lesson4/seminar4" />
       <recent name="$PROJECT_DIR$/lesson4/seminar4/task4" />
-      <recent name="$PROJECT_DIR$/instance" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -299,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710788056694</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="homework4 asyncio">
+      <option name="closed" value="true" />
+      <created>1710960009508</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710960009508</updated>
+    </task>
+    <task id="LOCAL-00025" summary="homework4 multiprocessing threading">
+      <option name="closed" value="true" />
+      <created>1710960889715</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710960889715</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +357,8 @@
     <MESSAGE value="sem5" />
     <MESSAGE value="sem5 task2" />
     <MESSAGE value="sem5 task2 fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="sem5 task2 fixed" />
+    <MESSAGE value="homework4 asyncio" />
+    <MESSAGE value="homework4 multiprocessing threading" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework4 multiprocessing threading" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 from threading import Thread
 import requests
@@ -35,4 +36,9 @@ def main(urls):
     print(f"Общее время выполнения: {end_time - start_time:.2f} сек.")
 
 
-main(urls)
+if __name__ == "__main__":
+    urls = sys.argv[1:]
+    if not urls:
+        print("Укажите URL-адреса изображений.")
+        sys.exit(1)
+    main(urls)
